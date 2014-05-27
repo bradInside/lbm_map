@@ -1,0 +1,1706 @@
+/*##################### GENERIQUES ########################*/
+	.cap, .cap a
+	{
+		text-transform: uppercase;
+	}
+
+	.clean
+	{
+		clear: both;
+	}
+
+	.violet
+	{
+		color:#8f4885;
+	}
+
+	.clean
+	{
+		clear: both;
+	}
+
+	.bloc
+	{
+		display: block;
+	}
+
+	.f_left
+	{
+		float: left;
+	}
+
+	a{
+		text-decoration: none;
+		color: inherit;
+
+	}
+
+	a:visited
+	{
+		color: inherit;
+	}
+
+	a img
+	{
+		outline: none;
+		border: none;
+	}
+
+
+	.raleway
+	{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+	}
+
+	.ralewayBold
+	{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+	}
+
+	.underlined
+	{
+		text-decoration: underline;
+	}
+	.openSans
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+	}
+
+	.openSansLight
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+	}
+
+	.ui-dialog-title
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+	}
+	.ui-widget-header
+	{
+		background-color: #000000;
+		background-image: none;
+		border: none;
+	}
+	h3
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+
+	h4
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+	}
+
+	h5
+	{
+		margin-top: 4px;
+		font-size: 42px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		position: relative;
+	}
+	/*#######################################################################################################*/
+	/*###                                      CONTENEURS GLOBAUX                                         ###*/
+	/*#######################################################################################################*/
+	#content-wrapper
+	{
+		width:100%;
+		min-width: 995px;
+		overflow: hidden;
+	}
+
+	.slide
+	{
+		position: relative;
+	}
+
+	#chargement {
+		font-size: 14px;
+		text-align: center;
+		position: absolute;
+		left: 50%;
+		top: 25%;
+		width: 600px;
+		margin-left: -300px;
+		color: #333333;
+	}
+	#chargement-infos {
+		text-align:right;
+		white-space: nowrap;
+		display: block;
+		border-bottom:4px solid #000;
+		width: 0%;
+		color: #333333;
+	}
+
+	/*#######################################################################################################*/
+	/*###                                      HOME                                                       ###*/
+	/*#######################################################################################################*/
+
+
+	#home
+	{
+		background: url('../img/home/bg_home.jpg') 50% 100px no-repeat fixed;
+		background-color: #ecf3f1;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		/*height:1024px;*/
+		height:1280px;
+		overflow: hidden;
+		margin:auto;
+	}
+
+	#home_rond_container
+	{
+	   	top:500px;
+	    position: relative;
+	    width: 100%;
+	
+	}
+	#home_rond
+	{
+	 	background-image: url("../img/home/home_rond.png");
+	    height: 384px;
+	    margin: -4px auto auto;
+	    position: relative;
+	    width: 380px;
+	    z-index: 11;
+	    background-repeat: no-repeat;
+	}
+	#home_goutte_1_container
+	{
+		position: absolute;
+		width: 995px;
+		height: 1024px;
+	}
+
+	#home_manequins
+	{
+		background: url("../img/home/home_mannequin.png") no-repeat fixed 50% 0 transparent;
+	    height: 1295px;
+	    margin-top: -380px;
+	    padding: 0;
+	    position: relative;
+	    width: 100%;
+	    z-index: 1;
+	}
+
+	#home_goutte_1
+	{
+		/*
+		position: relative;
+		display: block;
+		top:39px;
+		*/
+
+		height:1024px;
+	    padding-top:100px;
+	    padding: 0;
+	    position: relative;
+	    z-index: 1;
+	    width:995px;
+		background: url(../img/home/goutte_1.png) 20% 0 no-repeat fixed ;	
+	}
+
+	#home_goutte_2
+	{
+		/*position: relative;
+		display: block;
+		top:-514px;
+		margin-left: 85%;*/
+		/*margin-top:-900px;*/
+		height:1024px;
+		height:1280px;
+	    padding-top:100px;
+	    padding: 0;
+	    position: absolute;
+	    z-index: 1;
+	    width:100%;
+		background: url(../img/home/goutte_2.png) 85% 0 no-repeat fixed ;	
+	}
+/*
+	#home_manequins
+	{
+		position: relative;
+		display: block;
+		text-align: center;
+		top: 27px;
+		text-align: center;
+	}
+*/
+	#home_manequins img
+	{
+		margin-left: -166px; 
+	}
+
+	#home_link_marque
+	{
+		height:190px;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	#home_link_concept
+	{
+		height:190px;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	#logo
+	{
+		cursor: pointer;
+	}
+
+
+	/*#######################################################################################################*/
+	/*### -------------------------------------FIN---HOME------------------------------------------------ ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                                      CONCEPT                                                    ###*/
+	/*#######################################################################################################*/
+
+	#concept
+	{
+		background-image: url('../img/concept/concept1.jpg');
+		background-attachment:fixed;
+		background-position: 50% top;
+		background-repeat: no-repeat;
+		min-width: 1024px;
+		height:983px;
+		margin: auto;
+		background-color: #000000;
+	}
+
+	#concept_bloc_texte
+	{
+		width:375px;
+		height:943px; /* 983-40 de padding */
+		background-color: white;
+		padding-top: 40px;
+		display: none;
+		position: relative;
+		z-index: 21;
+		/*margin-top: -240px;*/
+	}
+
+	#concept_bloc_texte .content_text
+	{
+		margin-top:36px;
+		width:267px;
+		margin:36px auto auto auto;
+	}
+
+	#concept_popup_container
+	{
+		width:100%;
+		max-width: 1280px;
+		overflow:hidden;
+		position: absolute;
+	}
+
+	#concept_bloc_texte .content_text h3
+	{
+		font-weight: 800;
+		font-size: 14px;
+	}
+
+	#concept_bloc_texte .footer
+	{
+		cursor: pointer;
+	}
+
+	#concept_bloc_texte .trouver_salon
+	{
+		margin-top: 31px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#concept_close_button
+	{
+		float:right;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+
+
+
+	#concept_center_text
+	{
+		width:1024px;
+		margin: auto;
+		text-align: center;
+	}
+
+	#concept_center_text .concept_center_text_container
+	{
+		width:500px;
+		margin:auto;
+		padding-top: 60px;
+		padding-bottom: 10px;
+		z-index: 20;
+		position: relative;
+
+	}
+		.concept_interne
+	{
+		width:500px;
+		margin:auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		z-index: 20;
+		position: relative;
+		background: url('../img/bg.png');
+		border-radius: 40px; /* propriété CSS3 */
+		-moz-border-radius: 40px; /* compatibilité avec Firefox */
+		-webkit-border-radius: 40px; /* compatibilité avec les navigateurs Webkit */
+	}
+
+	#concept_center_text .concept_center_text_head
+	{
+		font-size: 35px;
+	}
+
+	#concept_separator
+	{
+		display: block;
+		width:18px;
+		height:5px;
+		margin:auto;
+		border-bottom: 1px solid #8f4885;
+		margin-bottom: 5px;
+	}
+	#concept_detail_button
+	{
+		cursor: pointer;
+		margin-top:10px;
+	}
+
+
+	#slider
+	{
+		margin-top:500px;
+		width:278px;
+		margin-left:auto;
+		margin-right: auto;
+		
+	}
+
+	#slider img
+	{
+		float:left;
+		display: block;
+		cursor: pointer;
+		position: relative;
+		z-index: 21;
+	}
+
+	#slider img.slider_mid
+	{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	#end_test
+	{
+		background-color: grey;
+		background-position: 50% top;
+		background-repeat: no-repeat;
+		max-width:1280px;
+		min-width: 1024px;
+		height:1200px;
+		margin: auto;
+	}
+
+	#concept_table_container
+	{
+		position: absolute;
+	}
+	#concept_table
+	{
+		top:-150px;
+		text-align: left;
+		position: relative;
+	}
+
+
+	#concept_brosse
+	{
+		text-align: right;
+		position: relative;
+		top:-1100px;
+		right:-300px;
+		z-index: 10;
+	}
+
+	/*#######################################################################################################*/
+	/*### -------------------------------------FIN---CONCEPT--------------------------------------------- ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                                      TENDANCES                                                  ###*/
+	/*#######################################################################################################*/
+	#tendances
+	{
+
+		background: url('../img/tendances/tendances_bg.jpg') 50% 0px no-repeat fixed;
+		background-color: #1a1c1d;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:1023px;
+		overflow: hidden;
+		margin:auto;
+		color: white;
+		
+	}
+
+	#tendances_manequin.tendeance_test1
+	{
+		background-image:url('../img/collections/evenements_manequin1.png');
+	}
+	#tendances_manequin.tendeance_test2
+	{
+		background-image:url('../img/collections/evenements_manequin2.png');
+	}
+
+	#tendances_manequin.tendeance_test3
+	{
+		background-image:url('../img/collections/evenements_manequin3.png');
+	}
+	#tendances_manequin.tendeance_test4
+	{
+		background-image:url('../img/collections/evenements_manequin4.png');
+	}
+
+	.tendance_test2
+	{
+		background-image:url('../img/collections/tendances_manequin.png');
+	}
+
+	#find_salon
+	{
+		cursor: pointer;
+	}
+
+
+	#tendances_manequin_container
+	{
+		position: absolute;
+		width: 100%;
+	}
+	#tendances_manequin
+	{
+		height:1020px;
+	    padding: 0;
+	    position: relative;
+	    z-index: 0;
+	    width:100%;
+		background: url(../img/tendances/tendances_manequin.png) 50% 0 no-repeat fixed ;	
+	    background-position: 50% -128px;
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	}
+
+	#tendances_manequin img
+	{
+		margin-left:-145px;
+	}
+
+	#tendances_pink_button
+	{
+	  	position: relative;
+	    right: -237px;
+	    text-align: center;
+	    top: -849px;
+	    z-index: 19;
+	}
+
+	#tendance_fauteuil_container
+	{
+		position: absolute;
+	}
+	#tendances_fauteuil
+	{
+		height:1023px;
+	    padding-top:100px;
+	    padding: 0;
+	    position: relative;
+	    z-index: 0;
+	    width:1200px;
+		background: url(../img/tendances/tendances_fauteuil.png) 50% 0 no-repeat fixed ;	
+	}
+
+	#tendances_brosse
+	{
+		height:869px;
+	    padding-top:100px;
+	    padding: 0;
+	    margin-top:-216px;
+
+	    z-index: 0;
+	    width:100%;
+		background: url(../img/tendances/tendances_brosse.png) 50% 0 no-repeat fixed ;	
+	}
+
+	#tendances_text_container
+	{
+		left: 72%;
+	    position: relative;
+	    text-align: center;
+	    top: 312px;
+		height:250px;
+	    width: 400px;
+		padding-top:75px;
+		background: url(../img/liserai.png) 50% no-repeat;
+	}
+	
+		#tendances_text_container2
+	{
+		left: -50px;
+	    position: relative;
+	    text-align: center;
+	    top: -300px;
+		height:250px;
+	    width: 400px;
+		padding-top:75px;
+		background: url(../img/liserai.png) 50% no-repeat;
+	}
+
+	#tendances_lampe
+	{
+		position: relative;
+	    right: -107px;
+	    text-align: right;
+	    top: -1801px;
+	    z-index: 19;
+	    max-width: 1280px;
+	    overflow: hidden;
+	}
+
+	#tendance_pastille_noire_container
+	{
+		max-width: 1024px;
+		margin: auto;
+	}
+	#tendance_pastille_noire_container
+	{
+		position: absolute;
+		left:50%;
+		margin-left:-160px;
+		z-index: 21;
+	}
+	#tendance_pastille_noire
+	{
+		background-image:url('../img/tendances/tendances_pastille_noire.png');
+		width: 320px;
+		height: 325px;
+		margin: 167px auto auto;
+		color: white;
+		text-align: center;
+	}
+
+
+	.tendance_pastille_noire_title_1
+	{
+		font-size: 30px;
+	}
+
+	#tendance_pastille_noire_text_placer
+	{
+		padding-top: 117px;
+	}
+
+	.tendance_pastille_noire_collections
+	{
+		margin-top:55px;
+	}
+
+	#tendance_pastille_noire_placer
+	{
+		position: relative;
+		top:320px;
+		cursor: pointer;
+	}
+
+
+
+
+	/*#######################################################################################################*/
+	/*###                                 FIN TENDANCES                                                   ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                                   COLLECTIONS                                                   ###*/
+	/*#######################################################################################################*/
+	#collections
+	{
+	    background-color: #000000;
+	    background-image: url("../img/collections/collections_fond.jpg");
+	    background-position: 50% top;
+	    background-repeat: no-repeat;
+	    height: 694px;
+	    margin: auto;
+	    /*max-width: 1280px;*/
+	    min-width: 1024px;
+	    overflow: hidden;
+	}
+
+	#collections_titles
+	{
+		text-align: center;
+		width:400px;
+		position: relative;
+		color: white;
+		margin:auto;
+		z-index:10;
+	}
+	
+	#slider_collection {
+	z-index:100000;
+	}
+	
+		#slider_collection2 {
+	z-index:100;
+	position:absolute;
+	margin-left:750px;
+	margin-top:100px;
+	}
+	#slider_collection  img{
+	cursor: pointer;
+	}
+		#slider_collection2  img{
+	cursor: pointer;
+	}
+
+
+	.collections_separator
+	{
+		width: 20px;
+		height:5px;
+		border-bottom: 1px solid white;
+		margin:auto;
+	}
+
+	.collections_title_1
+	{
+		font-size: 14px;
+	}
+
+	.collections_title_2
+	{
+		font-size: 35px;
+		text-shadow: black 1px 1px 2px;
+	}
+
+	#collections_button_play_video
+	{
+		background-image: url('../img/collections/collections_bouton_play.png');
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: center top;
+		height: 82px;
+		padding-top: 45px;
+		margin-top: 12px;
+		color:white;
+		font-size: 14px;
+	}
+	#collections_centerer_div,.centerer_div
+	{
+		width:995px;
+		margin:auto;
+	}
+
+	#collection_clicker_div
+	{
+	    height: 50px;
+	    margin-left: 134px;
+	    margin-top: -60px;
+	    position: absolute;
+	    width: 126px;
+	    z-index: 100;
+	    cursor: pointer;
+	}
+
+	#collections_spray
+	{
+		position: relative;
+		float: right;
+		right:-100px;
+		top:-100px;
+		z-index:9;
+	}
+
+	/*#######################################################################################################*/
+	/*###                               FIN COLLECTIONS                                                   ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                                GIMME MORE                                                       ###*/
+	/*#######################################################################################################*/
+
+	.abs_div
+	{
+		position: absolute;
+	}
+	#gimmeMore
+	{
+		background-color: #ecf3f1;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		/*height:800px;*/
+		height:900px;
+		margin:auto;
+		overflow:hidden;
+	}
+
+	#gimme_mannequin
+	{
+		position: relative;
+		margin:auto;
+		width:762px;
+		text-align: center;
+	}
+
+	.centerer_div
+	{
+		/*border: 1px solid blue;*/
+	}
+
+	#gimme_pot
+	{
+		position: relative;
+	}
+	#gimme_pot_container
+	{
+		margin-left:600px;
+	}
+
+	#gimme_peigne
+	{
+	 	margin-left: -127px;
+	    margin-top: -68px;
+	    position: absolute;
+	}
+
+	#gimme_canape
+	{
+		margin-left: 0;
+	    margin-top: 282px;
+	    position: absolute;
+	}
+
+	#gimme_gouttes
+	{
+		position: relative;
+		opacity: 0.70;
+	}
+
+	#gimme_goute_container
+	{
+		margin-left: 822px;
+		margin-top:-200px;
+	}
+
+	#gimme_tondeuse
+	{
+		right:0;
+	    margin-top: 337px;
+	    width: 302px;
+	    height: 302px;
+	    position: absolute;
+	}
+
+	#gimme_vignette_bleue
+	{
+		margin-left: 821px;
+	    margin-top: 148px;	
+	    background-image: url('../img/evenements/evements_bulle_bg.png');
+	    background-repeat: no-repeat;
+	    width: 262px;
+	    height:198px;
+	    color: white;
+	    text-align: center;
+	    padding-top: 67px;
+	    cursor: pointer;
+	}
+
+	#gimme_title_1
+	{
+		font-size: 14px;
+	}
+
+	#gimme_title_2
+	{
+		font-size: 43px;
+	}
+
+	#gimme_rond_noir
+	{
+		background-image: url("../img/tendances/tendances_pastille_noire.png");
+	    color: white;
+	    height: 195px; /* 325px-130 de padding */
+	    margin: auto;
+	    text-align: center;
+	    width: 320px;
+	    position: relative;
+	    top:-146px;
+	    padding-top: 130px;
+	    cursor: pointer;
+	}
+
+	.gimme_title_3
+	{
+		font-size: 30px;
+	}
+
+	#gimme_title_5
+	{
+		font-size: 11px;
+		margin-top:40px;
+	}
+
+	#gimme_canape_mobile
+	{
+		position: relative;
+		top:0;
+		left:0;
+	}
+
+	#gimme_peigne_anim
+	{
+		position: relative;
+		top:0;
+		left:0;
+	}
+	/*#######################################################################################################*/
+	/*###                               FIN  GIMME MORE                                                       ###*/
+	/*#######################################################################################################*/
+
+
+
+	/*#######################################################################################################*/
+	/*###                                EVENEMENTS                                                       ###*/
+	/*#######################################################################################################*/
+
+
+	#evenements
+	{
+		
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:700px;
+		margin:auto;
+		color: white;
+
+
+		background: url('../img/evenements/evenement_bg.jpg') 50% 0px no-repeat fixed;
+		background-color: #e2e1df;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:900px;
+		overflow: hidden;
+		margin:auto;
+		color: white;
+	}
+
+	#evenements_manequin
+	{
+		height:900px;
+	    padding: 0;
+	    position: absolute;
+	    z-index: 0;
+	    width:995px;
+		background: url(../img/evenements/evenements_manequin.png) 50% 0 no-repeat fixed ;	
+		
+	}
+
+	#evenements_produit
+	{
+		
+		height:900px;
+	    padding: 0;
+	    position: absolute;
+	    z-index: 0;
+	    width:995px;
+		background: url(../img/evenements/evenements_produit.png) 50% 0 no-repeat fixed ;
+	}
+
+	#evenements_goutte
+	{
+		
+		height:900px;
+	    padding: 0;
+	    position: relative;
+	    z-index: 0;
+		background: url(../img/evenements/evenements_gouttes.png) 50% 0 no-repeat fixed ;
+	}
+	#evenement_bulle_clicker
+	{
+		width:260px;
+		height: 260px;
+	
+		position: absolute;
+		margin-top: -59px;
+		z-index: 100;
+	}
+
+	#evenement_text_div
+	{
+		color:#000000;
+		text-align: center;
+		position: absolute;
+		margin-top: 400px;
+		padding-top:75px;
+		padding-left:20px;
+		padding-right:20px;
+		height:250px;
+		background: url(../img/liserai2.png) 50% no-repeat;
+	}
+	#evenement_button
+	{
+	 	background-image: url("../img/evenements/evenement_button_bg.png");
+	    background-position: center top;
+	    background-repeat: no-repeat;
+	    color: #FFFFFF;
+	    cursor: pointer;
+	    font-size: 11px;
+	    height: 38px;
+	    margin-top: 11px;
+	    padding-left: 3px;
+	    padding-top: 7px;
+			
+	}
+	
+
+	#evenements_centerDiv
+	{
+		margin-top:-900px;
+	}
+
+	.evenments_facebook
+	{
+		margin-top:10px;
+	}
+
+	.evenments_facebook img
+	{
+		vertical-align: bottom;
+	}
+	
+	.titleRubrique
+	{
+		font-size: 14px;
+		text-align: center;
+		padding-bottom: 5px;
+
+	}
+
+	.titleBorder
+	{
+		width:20px;
+		border-top: 1px solid white;
+		margin: auto;
+	}
+
+	#ev_title_1
+	{
+		display: block;
+		padding-top: 26px;
+	}
+
+	.ev_image_part
+	{
+ 		height: 305px;
+   		 width: 581px;
+	}
+
+	.ev_text_part
+	{
+		width:260px;
+		margin-left: 20px;
+		font-size: 13px;
+	}
+
+	.ev_spacer
+	{
+		width:40px;
+		height:10px;
+	}
+
+	#ev_text_container
+	{
+		margin: auto;
+		width: 924px;
+		margin-top: 30px;
+	}
+
+	#ev_bottom_titles
+	{
+		text-align: center;
+		margin-top:70px;
+	}
+
+	#ev_facebook
+	{
+		background-image: url('../img/evenements/ev_facebook_blue.jpg');
+		background-repeat: no-repeat;
+		width:471px; 
+		height:39px;
+		margin: auto;
+		padding-top: 10px;
+		margin-top:20px;
+		cursor: pointer;
+	}
+
+	#ev_siege
+	{
+		position: relative;
+		top:-270px;
+		left:120px;
+		width:228px;
+	}
+
+	#prochainement
+	{
+
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:700px;
+		margin:auto;
+		color: white;
+
+
+		background: url('../img/prochainement/prochainement_bg.jpg') 50% 0px no-repeat fixed;
+		background-color: #e2e1df;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:900px;
+		overflow: hidden;
+		margin:auto;
+		color: white;	
+	}
+
+	#prochainement_peigne
+	{
+		height:900px;
+	    padding: 0;
+	    position: relative;
+	    z-index: 0;
+		background: url(../img/prochainement/prochainement_peigne.png) 50% 0 no-repeat fixed ;		
+	}
+
+	#prochainement_texteDiv
+	{
+		   margin-top: 300px;
+		  text-align: center;
+	}
+
+	.BigThinText{
+	    font-family: 'Open Sans',sans-serif;
+	    font-size: 30px;
+	    font-weight: 300;
+	    position: relative;
+	}
+
+	/*#######################################################################################################*/
+	/*###                                FIN EVENEMENT                                                    ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                                MAPS                                                       ###*/
+	/*#######################################################################################################*/
+
+
+	#map_part
+	{
+		background-color: orange;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		height:800px;
+		margin:auto;
+		color: white;
+	}
+
+	#map_centerer
+	{
+		min-width: 1024px;
+    	width: 88%;
+	}
+
+	#map_canvas
+	{
+		/*max-width:1280px;*/
+		min-width: 1024px;
+
+		height: 800px;
+		margin:auto;
+		background-color: white;
+	}
+
+	#map_title
+	{
+		position: absolute;
+		background-image: url('../img/map/map_rond_bleu.png');
+		width: 314px;
+		height:129px;/* -20 padding */
+		z-index: 1;
+		text-align: center;
+		padding-top: 40px;
+		margin-left:65px;
+	}
+
+	.map_title1
+	{
+		font-size: 30px;
+	}
+
+	.map_title2
+	{
+		font-size: 11px;
+		line-height: 11px;
+	}
+	#map_form_placer
+	{
+		float: right;
+		position: relative;
+	}
+
+	#map_form
+	{
+		position: absolute;
+		right: 40px;
+		height:550px;
+		width:243px;
+		background-color:#eee5e5;
+		z-index: 1;
+		/*margin-right: 270px;*/
+		margin-top:128px;
+		padding:25px; /* WARN PADDING */
+
+
+		/* ombrages */
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px#888;
+		box-shadow: 0 0 5px #888;
+
+
+		color:#938391;
+
+	}
+
+	h2
+	{
+		text-transform: uppercase;
+		font-size: 13px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+
+
+	}
+	#map_form h2
+	{
+		color:#4d203d;
+		
+	}
+
+	#input_white
+	{
+		padding:8px;
+		background-color: white;
+		margin-top:12px;
+	}
+
+	#map_input_txt
+	{
+		background: transparent;
+		border: none;
+		color: #938391;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400; 
+		font-size: 14px;
+		width:218px;
+	}
+
+	#map_rayon_div
+	{
+		margin-top:5px;
+	}
+
+	ul
+	{
+		margin: 10px 0 0 -1px;
+		padding-left:5px;
+		padding-right: 5px;
+	}
+
+	#map_rayon_select_container
+	{
+		width: 94px;
+
+	}
+
+	#map_rayon_div
+	{
+		border-bottom: 1px solid #e0d3d8;
+		padding-bottom: 15px;
+	}
+
+	#map_rayon_label
+	{
+		padding-top: 23px;
+		margin-right: 5px;
+	}
+
+	.moreno_select
+	{
+		margin: auto;
+	}
+	#map_pays_select_container
+	{
+		 margin: -15px auto auto;
+		height:60px;
+	}
+
+	#map_search_button
+	{
+		background-color: #8e4784;
+		cursor: pointer;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+		font-size: 14px;
+		color:white;
+		padding: 7px;
+		margin-top:5px;
+	}
+
+	#map_salons_container
+	{
+		height:290px;
+		background-color: white;
+		margin-top:10px;
+		overflow:hidden;
+	}
+
+	.template_salon
+	{
+		height:100px;
+		padding-top:3px;
+		border-bottom: 2px solid #eee5e5;
+		cursor: pointer;
+	}
+
+	.template_salon.selected
+	{
+		background-color: 	#8e4784;
+	}
+
+
+	.map_salon_mini_marker
+	{
+		width:13px;
+		height:18px;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.template_salon div.map_salon_mini_marker
+	{
+		background-image: url('../img/map/map_mini_marker.jpg');
+	}
+
+	.template_salon.selected div.map_salon_mini_marker
+	{
+		background-image: url('../img/map/map_mini_marker_selected.jpg');
+	}
+
+	.map_salon_adresse
+	{
+		width:196px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 13px;
+		color:#938391; 		
+		margin-top:5px;
+
+	}
+
+	.template_salon.selected div.map_salon_adresse
+	{
+		color:white; 
+	}
+
+	.map_facebook_logo
+	{
+		width: 22px;
+		height: 21px;
+		background-image: url('../img/map/facebook_logo_base.jpg');
+		cursor: pointer;
+		position: absolute;
+	    margin-left: 168px;
+	    margin-top: -36px;
+	}
+
+	.template_salon.selected div.map_facebook_logo
+	{
+		background-image: url('../img/map/facebook_logo.jpg');
+	}
+
+
+	.map_mail_part
+	{
+		margin-top:6px;
+	}
+	.map_salon_adresse b
+	{
+		font-weight: 800;
+	}
+
+
+	/*#######################################################################################################*/
+	/*###                            FIN    MAPS                                                       ###*/
+	/*#######################################################################################################*/
+
+
+	/*#######################################################################################################*/
+	/*###                            SCROLLBAR                                                     ###*/
+	/*#######################################################################################################*/
+
+
+	.mCSB_container
+	{
+		margin-right: 0px;
+	}
+
+	.mCSB_scrollTools
+	{
+		margin-left:15px;
+	}
+
+	.mCSB_scrollTools .mCSB_draggerContainer
+	{
+		left: 10px;
+	}
+
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+   /* background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);*/
+    background: none repeat scroll 0 0 #8e4784;
+	}
+
+	/*#######################################################################################################*/
+	/*###                        FIN    SCROLLBAR                                                     ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                        FOOTER                                                    ###*/
+	/*#######################################################################################################*/
+
+	#footer
+	{
+		height:255px;
+		background-color: #000000;
+		/*max-width:1280px;*/
+		min-width: 995px;
+		margin:auto;
+		color: white;
+		padding-top: 30px;
+	}
+
+	#footer_join_us
+	{
+		text-align: center;
+		padding-bottom: 16px;
+		border-bottom: 2px solid #1a1a1a;
+	}
+
+	#footer_centerer
+	{
+
+	}
+
+	#footer_logo_moreno
+	{
+		margin-top:24px;
+	}
+
+	#footer_spacer
+	{
+		width:296px;
+		height:100px;
+	}
+
+	#footer_menu
+	{
+		color:white;
+		font-size: 12px;
+		margin-top:35px;
+		position: absolute;
+		margin-left: 42%;
+	}
+
+	#footer_menu a 
+	{
+		padding-left: 10px;
+	}
+	#actitudes
+	{
+		margin-left: 5px;
+   		 margin-top: -3px;
+	}
+	#actitudes img
+	{
+		margin-left: 5px;
+   		 margin-top: -3px;
+   		 position: relative;
+   		 vertical-align: middle;
+	}
+
+	/*#######################################################################################################*/
+	/*###                       FIN FOOTER                                                    ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                      MENU HAUT                                                ###*/
+	/*#######################################################################################################*/
+
+	#bandeau
+	{
+	    height: 60px;
+	    left: 50%;
+	    margin-left: -50%;
+	    min-width: 995px;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    z-index: 200;
+		}
+
+	#bandeau_menu_part
+	{
+		background-color: #000000;
+		height:60px;
+	}
+
+	#bandeau_logo_part
+	{
+		text-align: right;
+	}
+
+	.ext, a.ext
+	{
+		color:#8f4785;
+	}
+
+	.bandeau_menu 
+	{
+		color:white;
+		padding-top: 10px;
+	}
+
+	.bandeau_menu a
+	{
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		font-size: 11px;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+
+	#logo_placer
+	{
+		position: absolute;
+		width: 1px;
+		height: 1px;
+	}
+
+	#logo
+	{
+		position: relative;
+		left:712px;
+	}
+
+	/*#######################################################################################################*/
+	/*###                      FIN MENU HAUT                                                ###*/
+	/*#######################################################################################################*/
+
+	/*#######################################################################################################*/
+	/*###                      MARQUE                                                ###*/
+	/*#######################################################################################################*/
+
+
+	#marque
+	{
+		height:650px;
+		background-color: #000000;
+		/*max-width:1280px;*/
+		min-width: 1024px;
+		margin:auto;
+		color: white;
+		padding-top: 80px;
+		overflow: hidden;
+	}
+
+	#marque_titles
+	{
+		text-align: center;
+	}
+
+	#marque_separator
+	{
+		display: block;
+		width:18px;
+		height:5px;
+		margin:auto;
+		border-bottom: 1px solid #FFFFFF;
+		margin-bottom: 5px;
+	}
+
+	#marque_title_2
+	{
+		margin-top: 20px;
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		position: relative;
+	}
+
+	.marque_bloc
+	{
+		font-size: 13px;
+		/*width:270px;*/
+		width: 433px;
+		text-align: justify;
+	}
+
+	.marque_bloc h3
+	{
+		text-align: center;
+	}
+
+	.marque_middle_bloc
+	{
+		margin-left:60px;
+		/*margin-right:60px;*/
+	}
+
+	.solo_div
+	{
+		/*margin-left:31%;*/
+	}
+
+	#marque_bloc_container
+	{
+		width:930px;
+		margin: 60px auto auto;
+		z-index: 1;
+		position: relative;
+
+	}
+
+	#marque_peigne
+	{
+		position: relative;
+		/*right: -89px;*/
+		/*right: -429px;*/
+   		z-index: 0;
+   		width: 422px;
+	}
+
+	#marque_peigne_container
+	{
+  		
+    	height: 650px;/* meme hauteur que la div Marque*/
+    	position: absolute;
+    	right: 0;
+    	width: 422px;
+    	overflow: hidden;
+	}	
+
+	#marque_ciseau_container
+	{
+		height: 243px;
+    	position: absolute;
+    	right: 0;
+    	width: 405px;
+	}
+
+	#marque_ciseau
+	{
+	 	position: relative;
+	 	width: 405px;
+	    right: 0px;
+	    top: -11px;	
+	}
+	#marque_seche_cheveux_container
+	{
+	    height: 650px;/* meme hauteur que la div Marque*/
+    	position: absolute;
+    	right: 70%;
+    	width: 400px;
+    	overflow: hidden;	
+	}
+	#marque_seche_cheveux
+	{
+ 		
+    	position: relative;
+    	top:87px;
+	}
+
+	#marque_parallax_placer
+	{
+	 	background-color: #FFA500;
+	    height: 800px;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	}
+
+	#popup_video,.jwplayer
+	{
+		overflow: hidden;
+	}
+
+	.popupVideo .ui-dialog-titlebar-close
+	{
+		background-image: url('../img/home/close_dialog.png');
+		width: 26px;
+		height: 26px;
+		border: none;
+	}
+
+	.popupEvents .ui-dialog-titlebar-close
+	{
+		background-image: url('../img/home/close_dialog.png');
+		width: 26px;
+		height: 26px;
+		border: none;
+	}
+
+	.popupVideo .ui-icon-closethick
+	{
+		background-image: none;
+	}
+	
+	.shadow {
+	text-shadow: 1px 1px #ffffff;
+	color:#000000;
+	
+	}
